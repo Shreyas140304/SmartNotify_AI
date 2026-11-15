@@ -1,0 +1,8 @@
+
+google-genai
+pydantic
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+Pillow
