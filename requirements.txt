@@ -1,8 +1,15 @@
+# Core data and notebook dependencies
+numpy
+pandas
+Pillow
 
+# LLM and structured output
 google-genai
 pydantic
-pandas
-numpy
+
+# Semantic retrieval
 sentence-transformers
 faiss-cpu
-Pillow
+
+# Common ML utilities (include if imported by the notebook)
+scikit-learn

@@ -1,0 +1,65 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Local datasets and private data
+data/
+datasets/
+private_data/
+*.csv
+*.xlsx
+*.parquet
+
+# Media and user-provided files
+media/images/*
+media/audio/*
+media/voice_notes/*
+media/videos/*
+!media/images/README.md
+!media/audio/README.md
+!media/voice_notes/README.md
+!media/videos/README.md
+
+# Local model artifacts and indexes
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.faiss
+*.index
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+.cache/
+cache/
+temp/
+tmp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
